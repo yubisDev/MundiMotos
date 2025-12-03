@@ -2,9 +2,9 @@
 // index.php (Página Principal/Pública)
 
 // Asumiendo que 'conexion.php' contiene la conexión a la base de datos
-include('conexion.php');
+include_once('conexion.php');
 // Asumiendo que 'includes/header.php' contiene el navbar, CSS y body/html tags
-include('includes/header.php'); 
+include_once('includes/header.php'); 
 ?>
 
 <div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
@@ -34,5 +34,5 @@ include('includes/header.php');
 
 <?php 
 // Asumiendo que 'includes/footer.php' contiene el cierre de body/html tags y scripts
-include('includes/footer.php'); 
+include_once('includes/footer.php'); 
 ?>
