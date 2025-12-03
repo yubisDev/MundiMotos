@@ -2,7 +2,7 @@
 // Configuración de la base de datos
 $host = 'localhost';
 $usuario = 'root';
-$contrasena = '';
+$contrasena = '1253456';
 $base_de_datos = 'mundimotos';
 
 // Intentar la conexión
